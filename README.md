@@ -27,4 +27,4 @@ Customize [credentials.php](/config/credentials.php)
 * user unsubscription
 # Security issue
 * A registered user can return to home without actually killing its own session (and so other users can access its reserved area without actually authenticate)
-  * > => Good pratice: always log out as a user!
+	> Good pratice: always log out as a user!
