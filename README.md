@@ -30,15 +30,15 @@ Entrambi gli utenti, standard e admin, una volta confrontati i valori “Usernam
   * Customize [credentials.php](/config/credentials.php)
 ## Mailer setup
 Customize [credentials.php](/config/credentials.php)
-	> Must have a Google account and a Google App Password
+> Must have a Google account and a Google App Password
 ## Program execution on local host with dedicated port
 1. `cd C:\\project\dir`
 2. `php -S localhost:8080` (default landing page: index.php)
 3. Search `localhost:8080` on the browser
 > check your spam if you don't find credentials mails in your mailbox
 # Still to implement 
-* multiuser sessions
-* user unsubscription
+* Multiuser sessions
+* User unsubscription
 # Security issue
 * A registered user can return to home without actually killing its own session (and so other users can access its reserved area without actually authenticate)
 	> Good pratice: always log out as a user!
