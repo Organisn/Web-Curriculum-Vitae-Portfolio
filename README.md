@@ -4,7 +4,7 @@
 1. Installation
   * Follow [instructions](https://www.php.net/manual/en/install.windows.php)
 2. php.ini (php installation folder) setup
-> check extension_dir constant: must point to `C:\\phpinstallationfolder\ext` folder
+	> check extension_dir constant: must point to `C:\\phpinstallationfolder\ext` folder
   * enable mysqli extension (remove comment line marker `;`)
   * enable openssl extension
 ## DB setup
@@ -16,7 +16,7 @@
   * Customize [credentials.php](/config/credentials.php)
 ## Mailer setup
 Customize [credentials.php](/config/credentials.php)
-> Must have a Google account and a Google App Password
+	> Must have a Google account and a Google App Password
 ## Program execution on local host with dedicated port
 1. `cd C:\\project\dir`
 2. `php -S localhost:8080` (default landing page: index.php)
