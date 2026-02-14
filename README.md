@@ -39,6 +39,7 @@ Customize [credentials.php](/config/credentials.php)
 # Still to implement 
 * Multiuser sessions
 * User unsubscription
+* Automatic escape characters insertion before document file system path backslashes during insertion, deletion procedure
 # Security issue
 * A registered user can return to home without actually killing its own session (and so other users can access its reserved area without actually authenticate)
 	> Good pratice: always log out as a user!
