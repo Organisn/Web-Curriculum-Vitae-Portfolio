@@ -8,7 +8,7 @@ La prima visualizzata è la home page del sito. Al primo avvio vengono stampati 
 * La prima, destinata all’utente admin, elenca le informazioni inserite in home.php.
 * La seconda, per l’utente che sta interagendo, rappresenta un messaggio di conferma della spedizione della prima e fornisce le credenziali richieste.\
 
-Le credenziali, solo quando l’indirizzo e-mail specificato risulta inesistente all’interno del database , sono generate dal codice e registrate [con PHP MySQLi](https://www.php.net/manual/en/book.mysqli.php) assieme agli altri dati utente.
+Le credenziali, solo quando l’indirizzo e-mail specificato risulta inesistente all’interno del database, sono generate dal codice e registrate [con PHP MySQLi](https://www.php.net/manual/en/book.mysqli.php) assieme agli altri dati utente.
 * L’username corrisponde a ‘nome.cognome’.
 * La password è una ricombinazione casuale a sei caratteri della stringa ‘abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789’.
 ## [reserved.php](/reserved.php)
