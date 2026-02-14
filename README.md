@@ -1,4 +1,7 @@
 # (Italian) overview
+## [index.php](/index.php)
+## [shipment.php](/shipment.php)
+## [reserved.php](/reserved.php)
 # Windows setup
 ## PHP setup
 1. Installation
