@@ -170,9 +170,13 @@
 						print("<input type=\"hidden\" name=\"pass\" value=\"".$pass."\">
 							<input type=\"hidden\" name=\"user\" value=\"".$user."\">");
 
-					} else print("<div class=\"input\">Username<br><br><input type=\"text\" name=\"user\" required></div><br>
-							<div class=\"input\">Password<br><br><input type=\"password\" name=\"pass\" required></div><br>");
-							
+					} else print("<div class=\"input\">Username<br><br>
+							<input type=\"text\" name=\"user\" required>
+							</div><br>
+							<div class=\"input\">
+							Password<br><br>
+							<input type=\"password\" name=\"pass\" required>
+							</div><br>");
 				?>
 				<div class="input">
 					<input type="submit" value="Log in">
