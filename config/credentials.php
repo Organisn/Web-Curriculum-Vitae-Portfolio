@@ -4,9 +4,9 @@
 	This file is included in the database connection scripts to establish a connection to the MySQL database.
 	Make sure to keep this file secure and do not expose it publicly, as it contains sensitive informations.
 	*/
-	$db_host = "localhost";
-	$db_username = "root";
-	$db_password = "root";
+	$db_host = "";
+	$db_username = "";
+	$db_password = "";
 	$db = "cvo";
 	/* 
 	Update the gmail account credentials.
