@@ -32,11 +32,11 @@ Entrambi gli utenti, standard e admin, una volta confrontati i valori “Usernam
 Customize [credentials.php](/config/credentials.php)
 > Must have a Google account and a Google App Password
 ## Program execution over local host with dedicated port
-From command prompt/Powershell
+From CMD/Powershell
 1. `cd C:\\project\dir`
 2. `php -S localhost:8080` (default landing page: index.php)
 3. Search `localhost:8080` on the browser
-> check your spam if you don't find credentials mails in your mailbox
+> Check your spam if you don't find credentials mails in your mailbox
 # Still to implement 
 * Multiuser sessions
 * User unsubscription
