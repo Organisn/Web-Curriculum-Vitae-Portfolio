@@ -16,7 +16,7 @@ Entrambi gli utenti, standard e admin, una volta confrontati i valori “Usernam
 # Windows setup
 ## PHP setup
 1. Installation
-  * Follow [instructions](https://www.php.net/manual/en/install.windows.php)
+  * Follow [instructions](https://www.php.net/manual/en/install.windows.php) and download a zipped VS x64 Thread Safe package
 2. php.ini (php installation folder) setup
 	> check extension_dir constant: must point to `C:\\phpinstallationfolder\ext` folder
   * enable mysqli extension (remove comment line marker `;`)
