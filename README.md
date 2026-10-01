@@ -37,7 +37,7 @@ Customize [credentials.php](/config/credentials.php)
 From CMD/Powershell
 1. `cd C:\\project\dir`
 2. `php -S localhost:8080` (default landing page: index.php)
-3. Search `localhost:8080` on the browser (will automatically point to [index.php](/index.php)
+3. Search `localhost:8080` on the browser (will automatically point to [index.php](/index.php))
 > Check your spam if you don't find credentials mails in your mailbox
 # Still to implement 
 * Multiuser sessions
