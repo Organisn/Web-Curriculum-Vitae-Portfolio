@@ -16,9 +16,11 @@ Entrambi gli utenti, standard e admin, una volta confrontati i valori “Usernam
 # Windows setup
 ## PHP setup
 1. Installation
-  * Follow [instructions](https://www.php.net/manual/en/install.windows.php) and download a zipped VS x64 Thread Safe package
-2. php.ini ("php.ini-development" renamed copy settled into installation folder) setup
-	> check extension_dir constant: must point to `C:\\php\installation\folder\ext` folder
+  * Follow [instructions](https://www.php.net/manual/en/install.windows.php) and [download](https://www.php.net/downloads.php) a zipped VS x64 Thread Safe package
+  * Extract zipped files
+  * Inside php files folder, copy "php.ini-development" and rename it "php.ini"
+2. php.ini setup
+	> check extension_dir constant: must point to `C:\php\installation\folder\ext` folder and be uncommented
   * enable mysqli extension (remove comment line marker `;`)
   * enable openssl extension
 ## DB setup
